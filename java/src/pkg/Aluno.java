@@ -2,7 +2,7 @@ package pkg;
 
 /**
  * Representa um aluno com nome e idade.
- * Implementa a interface Comparable para permitir a comparação e ordenação de alunos.
+ * Implementa a interface Comparable para a comparação e ordenação de alunos.
  */
 public class Aluno implements Comparable<Aluno> {
 
@@ -47,11 +47,11 @@ public class Aluno implements Comparable<Aluno> {
     }
 
     /**
-     * Compara este aluno com outro aluno para fins de ordenação.
-     * Ordena primeiro por nome e, em caso de duplicação, por idade.
+     * Comparação de alunos para ordenação.
+     * Ordena primeiro por nome. Em caso de duplicação, por idade.
 
-     * @param outroAluno O outro aluno para comparação.
-     * @return Um valor negativo, zero ou positivo conforme este aluno é menor, igual ou maior que o outro aluno.
+     * @param Outro aluno para comparação.
+     * @return 
      */
     @Override
     public int compareTo(Aluno outroAluno) {
