@@ -3,14 +3,14 @@ package pkg;
 import java.util.List;
 
 /**
- * Classe contendo métodos de ordenação para listas de alunos.
+ * Classe contendo métodos de ordenação para a lista de alunos.
  */
 public class Ordenar {
 
     /**
-     * Ordena a lista de alunos usando o método de ordenação Bubble Sort.
+     * Ordena a lista de alunos usando o método de ordenação Bolha.
 
-     * @param lista A lista de alunos a ser ordenada.
+     * @param A lista de alunos a ser ordenada.
      */
     public static void metodoBolha(List<Aluno> lista) {
 
@@ -30,9 +30,9 @@ public class Ordenar {
     }
 
     /**
-     * Ordena a lista de alunos usando o método de ordenação Selection Sort.
+     * Ordena a lista de alunos usando o método de ordenação Seleção.
 
-     * @param lista A lista de alunos a ser ordenada.
+     * @param A lista de alunos a ser ordenada.
      */
     public static void metodoSelecao(List<Aluno> lista) {
 
@@ -53,9 +53,9 @@ public class Ordenar {
     }
 
     /**
-     * Ordena a lista de alunos usando o método de ordenação Insertion Sort.
+     * Ordena a lista de alunos usando o método de ordenação Inserção.
      *
-     * @param lista A lista de alunos a ser ordenada.
+     * @param A lista de alunos a ser ordenada.
      */
     public static void metodoInsercao(List<Aluno> lista) {
 
