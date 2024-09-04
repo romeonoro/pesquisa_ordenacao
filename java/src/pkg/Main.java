@@ -18,7 +18,7 @@ public class Main {
         int quantidade = 60000; 
 
         Random random = new Random();
-        int tamanhoNome = random.nextInt(3, 6); 
+        int tamanhoNome = random.nextInt(3, 4); 
 
         listaBolha = Util.gerarNomesEIdades(quantidade, tamanhoNome);
         listaSelecao = Util.gerarNomesEIdades(quantidade, tamanhoNome);
