@@ -67,7 +67,7 @@ public class Util {
                 Collections.sort(lista);
                 break;
             default:
-                throw new IllegalArgumentException("Método de ordenacao inválido: " + metodo);
+                throw new IllegalArgumentException("Método de ordenação inválido: " + metodo);
         }
 
         System.out.println("\nLista " + metodo + " com ordenação\n");
