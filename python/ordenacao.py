@@ -3,9 +3,9 @@ class Ordenacao:
     @staticmethod
     def metodoBolha(lista = []):
         """
-        Método estático que ordenda uma lista utilizando o método de ordenação Bubble Sort.
+        Método estático que ordenda a lista utilizando o método de ordenação Bubble.
 
-        :param lista: Lista passada por parametro que o método bolha irá utilizar para fazer a ordenação.
+        :param lista: Lista passada por parametro que o método bolha fará a ordenação.
         :return: a lista ordenada.
         """
         houveTroca = True
@@ -24,9 +24,9 @@ class Ordenacao:
     @staticmethod
     def metodoSelecao(lista = []):
         """
-        Método estático que ordenda uma lista utilizando o método de ordenação Selection Sort.
+        Método estático que ordenda a lista utilizando o método de ordenação Selection.
 
-        :param lista: Lista passada por parametro que o método bolha irá utilizar para fazer a ordenação.
+        :param lista: Lista passada por parametro que o método bolha fará a ordenação.
         :return: a lista ordenada.
         """
         n = len(lista)
@@ -35,7 +35,7 @@ class Ordenacao:
             for j in range(i + 1, n):
                 if lista[j] < lista[min_index]:
                     min_index = j
-            lista[i], lista[min_index] = lista[min_index], lista[i] # trocando os índices de posicao
+            lista[i], lista[min_index] = lista[min_index], lista[i] 
 
         return lista
 
@@ -43,9 +43,9 @@ class Ordenacao:
     @staticmethod
     def metodoInsercao(lista=[]):
         """
-        Método estático que ordenda uma lista utilizando o método de ordenação Insertion Sort.
+        Método estático que ordenda a lista utilizando o método de ordenação Insertion.
 
-        :param lista: Lista passada por parametro que o método bolha irá utilizar para fazer a ordenação.
+        :param lista: Lista passada por parametro que o método bolha fará a ordenação.
         :return: a lista ordenada.
         """
         for i in range(1, len(lista)):
