@@ -13,8 +13,8 @@ public class Util {
     /**
      * Gera um nome aleatório com o tamanho especificado.
 
-     * @param tamanho (int) O tamanho do nome a ser gerado.
-     * @return: O nome aleatório gerado.
+     * @param O tamanho do nome a ser gerado.
+     * @return O nome aleatório gerado.
      */
     public static String gerarNomeAleatorio(int tamanho) {
 
@@ -48,8 +48,8 @@ public class Util {
     /**
      * Exibe o estado da lista antes e depois da ordenação.
      *
-     * @param lista (list) A lista de alunos a ser exibida.
-     * @param metodo (str) O método de ordenação a ser aplicado.
+     * @param A lista de alunos a ser exibida.
+     * @param O método de ordenação a ser aplicado.
      */
     public static void exibirOrdenacao(List<Aluno> lista, String metodo) {
 
@@ -70,7 +70,7 @@ public class Util {
                 throw new IllegalArgumentException("Método de ordenacao inválido: " + metodo);
         }
 
-        System.out.println("\n==== Lista " + metodo + " COM ordenacao ====\n");
+        System.out.println("\nLista " + metodo + " com ordenação\n");
         System.out.println(lista);
     }
 
@@ -78,8 +78,8 @@ public class Util {
     /**
      * Gera uma lista de alunos com nomes e idades aleatórios.
      *
-     * @param quantidade A quantidade de alunos a ser gerada.
-     * @param tamanhoNome O tamanho dos nomes dos alunos.
+     * @param A quantidade de alunos a ser gerada.
+     * @param O tamanho dos nomes dos alunos.
      * @return A lista de alunos gerados.
      */
     public static List<Aluno> gerarNomesEIdades(int quantidade, int tamanhoNome) {
