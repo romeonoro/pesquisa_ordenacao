@@ -5,10 +5,10 @@ class Util:
     @staticmethod
     def gerador_De_Nomes_Idade(tamanho):
         """
-        Método estático que gera um nome e uma idade, ambos aleatórios, para um aluno.
+        Método estático que gera nomes e idades aleatórias para um aluno.
 
         :param tamanho (int): Quantidade de caracteres que o nome terá.
-        :return: nome do aluno e idade do aluno.
+        :return: nome e idade do aluno.
         """
         letras = 'abcdefghijklmnopqrstuvwxyz'
         nomes = ''
@@ -23,7 +23,7 @@ class Util:
     @staticmethod
     def gerador_Nomes_Idade_para_Lista(lista, quantidade, tamanho):
         """
-        Método estático que popula uma lista com os nomes e idades geradas pelo método gerador_De_Nomes_Idade.
+        Método estático que popula uma lista com os nomes e idades geradas.
 
         :param lista: Contém o nome e idade do aluno.
         :param quantidade (int): Quantidade de nomes e idades que se deseja gerar.
