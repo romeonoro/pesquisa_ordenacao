@@ -18,7 +18,7 @@ public class Main {
         int quantidade = 60000; 
 
         Random random = new Random();
-        int tamanhoNome = random.nextInt(5); // fazendo com que o tamanho dos nomes mude a cada compilação do código.
+        int tamanhoNome = random.nextInt(5); 
 
         listaBolha = Util.gerarNomesEIdades(quantidade, tamanhoNome);
         listaSelecao = Util.gerarNomesEIdades(quantidade, tamanhoNome);
@@ -29,9 +29,5 @@ public class Main {
         Util.exibirOrdenacao(listaSelecao, "selecao");
         Util.exibirOrdenacao(listaInsercao, "insercao");
         Util.exibirOrdenacao(listaSort, "sort");
-
-
-     
-        
     }
 }
