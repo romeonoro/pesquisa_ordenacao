@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bhUGXziQtLD/5VcOPubdIdXMDkPpGb9BWF4E9KiYYtG6z24W3tZ/94Ntk68GV/sQ6r4hca+ZSN/Q0kwONTbVdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\laboratorio\\Desktop\\C#\\OrdenacaoDeObjetos\\OrdenacaoDeObjetos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\laboratorio\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
