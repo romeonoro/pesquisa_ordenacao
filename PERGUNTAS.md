@@ -3,7 +3,7 @@
 ## A ordenação 
 
 ### 📋 1 - O que é ordenar?
-> Na programação, "ordenar" se refere ao processo de organizar dados de acordo com uma determinada ordem ou sequência. 
+> Se refere ao processo de organizar dados de acordo com uma determinada ordem ou sequência. 
 Isso geralmente envolve reorganizar os elementos de uma lista, array ou qualquer outra estrutura de dados para que eles apareçam em uma ordem específica, 
 como crescente, decrescente ou baseada em algum critério.
 
@@ -18,7 +18,7 @@ como crescente, decrescente ou baseada em algum critério.
 > Dados ordenados são mais fáceis de analisar e interpretar.
 
 - ***Em geral.***
-> Em geral, otimizar as buscas e pesquisas.
+> Otimizar as buscas e pesquisas.
 
 ### ⚙️ 3 - Os algoritmos de ordenação são categorizados por dois conceitos:
   - **Complexidade**
@@ -36,8 +36,8 @@ como crescente, decrescente ou baseada em algum critério.
 > ➔ No processo de ordenação, mantem-se a ordenação<br><br>
 > ➔ No processo de ordenação, há uma 'bagunça' temporaria na estrutura<br><br>
 > ➔ Um algoritmo de ordenação é considerado estável se ele preserva a ordem relativa dos elementos com valores iguais. Isso significa que se dois elementos têm o mesmo valor, a ordem em que eles aparecem na lista original é mantida na lista ordenada. Algoritmos como Merge Sort e Bubble Sort são estáveis, enquanto Quick Sort e Heap Sort podem não ser estáveis.<br><br>
-> ➔ Métodos ESTÁVEIS, na ordenação, ao ordenar, não desordenam a estrutura no processo.<br><br>
-> ➔ Métodos INSTÁVEIS, na ordenação, ao ordenar, desordenam temporariamente a estrutura.<br><br>
+> ➔ Métodos ESTÁVEIS não desordenam a estrutura no processo.<br><br>
+> ➔ Métodos INSTÁVEIS desordenam temporariamente a estrutura.<br><br>
 
 ### 🤔 4 - Qual ou quais os melhores métodos de ordenação?
 
