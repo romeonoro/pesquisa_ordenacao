@@ -1,5 +1,5 @@
 Avaliação semestral de Pesquisa e Ordenação <br>
-18/09/2024
+18/09/2024 <br>
 Nome: Romeo Noro Guterres
 
 
@@ -23,17 +23,17 @@ E qual o recurso computacional que ele utiliza para ser tão melhor que os outro
     Pente, análise à distância e não contígua. Pré-organizando a estrutura, valores menores são trazidos para o começo e
     valores maiores para o fim.
 
-5) Observe a sequência de números no vetor:
-    0 1 2 3 4 5 6 - índices
-    7 3 5 1 8 2 5 - valores
+5) Observe a sequência de números no vetor: <br>
+    0 1 2 3 4 5 6 - índices <br>
+    7 3 5 1 8 2 5 - valores <br>
 
-    a) quantas comparações e trocas vão ocorrer usando bolha?   24 comparações e 11 trocas.
-    b) quantas comparações e trocas vão ocorrer usando pente?   23 comparações e 5 trocas.
+    a) quantas comparações e trocas vão ocorrer usando bolha?   24 comparações e 11 trocas. <br>
+    b) quantas comparações e trocas vão ocorrer usando pente?   23 comparações e 5 trocas. <br>
 
 6) Dos métodos estudados (bolha, seleção, inserção e pente), quais são estáveis e quais são instáveis?
 
-    ESTÁVEIS: Bolha e Inserção.
-    INSTÁVEIS: Seleção e Pente.
+    ESTÁVEIS: Bolha e Inserção. <br>
+    INSTÁVEIS: Seleção e Pente. <br>
 
 7) No processo de ordenação de listas contendo objetos, como pessoas que derivam da classe Pessoa(nome, email, telefone, curso), para usar o método 
 sort() em Java ou C Sharp é preciso realizar alterações na classe Pessoa para que a ordenação ocorra corretamente. Exemplifique e explique 
