@@ -14,8 +14,8 @@ ou se mede a complexidade?
 
 3) Novamente, no contexto de algoritmos de ordenação, há algoritmos estáveis e instáveis. Explique o que isso significa.
 
-    Métodos estáveis não desordenam a estrutura no processo.
-    Métodos instáveis desordenam temporariamente a estrutura.
+    Métodos estáveis não desordenam a estrutura no processo. <br>
+    Métodos instáveis desordenam temporariamente a estrutura. <br>
 
 4) Dos algoritmos que estudamos (bolha, seleção, inserção e pente), há um desses que tem um desempenho muito bom. Qual é? 
 E qual o recurso computacional que ele utiliza para ser tão melhor que os outros? Explique a resposta.
